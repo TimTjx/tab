@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="jquery.min.js"></script>
+    <script src="tab.js"></script>
+    <script>
+        window.onload = function(){
+            $(function(){
+                $(".ul1").tabs({
+                    //点击前btn字体颜色
+                    // btnColor:"#0a18e9",
+                    //点击后字体颜色
+                    btnClickColor:"#e07126",
+                    effect:"slide",
+                    // clickOrMouseover:"mouseover"
+                })
+           })
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <ul class="ul1">
+            <li>btn1</li>
+            <li>btn2</li>
+            <li>btn3</li>
+            <div class="clear"></div>
+        </ul>
+        <div class="contents">
+            <div class="div1">div1</div>
+            <div class="div2">div2</div>
+            <div class="div3">div3</div>
+        </div>
+    </div>
+</body>
+</html>

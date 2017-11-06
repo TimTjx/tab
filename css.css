@@ -1,0 +1,31 @@
+*{margin:0;padding: 0;}
+li{list-style: none;}
+.clear{
+    clear: both;
+}
+.ul1{
+    width: 300px;
+    margin: 50px auto;
+    /* overflow: hidden; */
+}
+.ul1 li{
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.contents{
+    margin: 20px auto;
+}
+.div1,.div2,.div3{
+    width: 600px;
+    height: 400px;
+    margin:0px auto;
+    background-color: #44ebd4;
+    
+}
+.div2{
+    background-color: #0da14b;
+}
+.div3{
+    background-color: #bdf35a;
+}
